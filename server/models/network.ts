@@ -310,6 +310,7 @@ class Network {
 		this.irc.requestCap([
 			"znc.in/self-message", // Legacy echo-message for ZNC
 			"znc.in/playback", // See http://wiki.znc.in/Playback
+			"twitch.tv/membership". // Restore CAP removed from defaults for irc-framework since 2.11.0
 		]);
 	}
 
